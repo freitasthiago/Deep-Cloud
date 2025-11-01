@@ -1,0 +1,68 @@
+{
+  "namespace": "owasp",
+  "description": "OWASP Top 10 2021 - The Ten Most Critical Web Application Security Risks",
+  "version": "2021",
+  "predicates": [
+    {
+      "value": "top-10",
+      "expanded": "OWASP Top 10 Category"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "top-10",
+      "entry": [
+        {
+          "value": "A01:2021-broken-access-control",
+          "expanded": "Broken Access Control",
+          "description": "Access control enforces policy such that users cannot act outside of their intended permissions"
+        },
+        {
+          "value": "A02:2021-cryptographic-failures",
+          "expanded": "Cryptographic Failures",
+          "description": "Failures related to cryptography that often lead to sensitive data exposure"
+        },
+        {
+          "value": "A03:2021-injection",
+          "expanded": "Injection",
+          "description": "Injection flaws, including SQL, NoSQL, OS, and LDAP injection"
+        },
+        {
+          "value": "A04:2021-insecure-design",
+          "expanded": "Insecure Design",
+          "description": "Flaws in design and architecture of applications"
+        },
+        {
+          "value": "A05:2021-security-misconfiguration",
+          "expanded": "Security Misconfiguration",
+          "description": "Security settings that are incomplete, misconfigured, or have insecure defaults"
+        },
+        {
+          "value": "A06:2021-vulnerable-outdated-components",
+          "expanded": "Vulnerable and Outdated Components",
+          "description": "Using components with known vulnerabilities"
+        },
+        {
+          "value": "A07:2021-identification-authentication-failures",
+          "expanded": "Identification and Authentication Failures",
+          "description": "Authentication-related attacks that target user identity"
+        },
+        {
+          "value": "A08:2021-software-data-integrity-failures",
+          "expanded": "Software and Data Integrity Failures",
+          "description": "Software and data integrity failures relating to code and infrastructure"
+        },
+        {
+          "value": "A09:2021-security-logging-monitoring-failures",
+          "expanded": "Security Logging and Monitoring Failures",
+          "description": "Insufficient logging, detection, monitoring and active response"
+        },
+        {
+          "value": "A10:2021-server-side-request-forgery",
+          "expanded": "Server-Side Request Forgery (SSRF)",
+          "description": "SSRF flaws occur when a web application fetches a remote resource without validating the user-supplied URL"
+        }
+      ]
+    }
+  ]
+}
